@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EJERCICIO_1_2.MainPage">
+
+    <StackLayout Padding="30">
+
+        <Label Text="Nombre Completo" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+        <Entry Placeholder="Nombre Completo" Keyboard="Text" x:Name="txtNames" TextColor="Black"/>
+
+        <Label Text="Apellidos" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+        <Entry Placeholder="Apellidos" Keyboard="Text" x:Name="txtSurnames" TextColor="Black"/>
+
+        <Label Text="Edad" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+        <Entry Placeholder="Edad" Keyboard="Numeric" x:Name="txtAge" TextColor="Black" />
+
+        <Label Text="Correo Eletronico" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+        <Entry Placeholder="correo@correo.com" Keyboard="Email" x:Name="txtEmail" TextColor="Black" />
+
+        <Button Text="Enviar Informacion" x:Name="btnSendInfo" CornerRadius="10" Clicked="btnSendInfo_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>

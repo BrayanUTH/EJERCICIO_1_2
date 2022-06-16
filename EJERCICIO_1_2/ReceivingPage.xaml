@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EJERCICIO_1_2.ReceivingPage">
+    <ContentPage.Content>
+        <StackLayout Padding="30" Spacing="20">
+            <Label Text="{Binding names}"
+                   FontSize="18"
+                   FontAttributes="Bold"/>
+
+            <Label Text="{Binding surnames}"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   x:Name="lblSurnames"/>
+
+            <Label Text="{Binding age, StringFormat='Edad: {0:F0}'}"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   x:Name="lblAge"/>
+
+            <Label Text="{Binding email}"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   x:Name="lblEmail"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
