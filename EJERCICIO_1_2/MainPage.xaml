@@ -5,8 +5,8 @@
 
     <StackLayout Padding="30">
 
-        <Label Text="Nombre Completo" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
-        <Entry Placeholder="Nombre Completo" Keyboard="Text" x:Name="txtNames" TextColor="Black"/>
+        <Label Text="Nombres" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+        <Entry Placeholder="Nombres" Keyboard="Text" x:Name="txtNames" TextColor="Black"/>
 
         <Label Text="Apellidos" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
         <Entry Placeholder="Apellidos" Keyboard="Text" x:Name="txtSurnames" TextColor="Black"/>
@@ -17,7 +17,7 @@
         <Label Text="Correo Eletronico" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
         <Entry Placeholder="correo@correo.com" Keyboard="Email" x:Name="txtEmail" TextColor="Black" />
 
-        <Button Text="Enviar Informacion" x:Name="btnSendInfo" CornerRadius="10" Clicked="btnSendInfo_Clicked" />
+        <Button Text="Enviar Informacion" x:Name="btnSendInfo" CornerRadius="10" Clicked="btnSendInfo_Clicked" BackgroundColor="Orange"/>
 
     </StackLayout>
 

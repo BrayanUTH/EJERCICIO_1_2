@@ -52,7 +52,7 @@ namespace EJERCICIO_1_2
 
             if (string.IsNullOrEmpty(names))
             {
-                return "Debes ingresar tu nombre completo";
+                return "Debes ingresar tus nombres";
             }
             else if (string.IsNullOrEmpty(surnames))
             {
